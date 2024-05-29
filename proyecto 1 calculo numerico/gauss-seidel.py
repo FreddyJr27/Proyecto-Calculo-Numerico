@@ -35,6 +35,9 @@ class GaussSeidelSolver:
             x = x1  
 
         return x
+    
+
+   
 #se le pide al usuario de cuanto va a ser la matriz nxn y se le pregunta si se va rellenar auto matico o no
 n = int(input("Cual va a ser el valor de n para la matriz nxn (n): "))
 p = input("Desea rellenar la matriz (r) o que se rellene automaticamente (a)?  ")
