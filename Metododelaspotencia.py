@@ -29,7 +29,7 @@ for i in range(m):
             matriz[i][j] = valor
     
 print(matriz)   
-#autovector,autovalor = power_method(matriz,100)
+autovalor,autovector = power_method(matriz,100)
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
@@ -46,6 +46,6 @@ ax.set_zlabel('Valor')
 
 plt.show()
 
-""""print("autovalor: ")
+print("autovalor: ")
 print(autovector)
-print("autovector dominate: ", autovalor)"""
+print("autovector dominate: ", autovalor)
